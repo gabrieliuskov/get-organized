@@ -1,0 +1,194 @@
+.login-register {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.lancamento-button {
+    margin: 5px 5px 5px 5px;
+    width: 130px;
+}
+
+.row-lancamento{
+    margin-left: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.dashboard-container{
+    display: flex;
+    padding: 0;
+    margin-left: -25px;
+    width: 100vw;
+}
+
+.navbar {
+    width: 100.8vw;
+    height: 8vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    margin: auto;
+}
+
+.card-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dash-legend {
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-icon-balance{
+    color: black;
+    text-align: center;
+    font-size: 30;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+
+
+.radio-options label {
+    font-size: 18px;
+}
+
+.select {
+    margin-top: 20;
+    display: flex;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.card-icon{
+    color: white;
+    text-align: center;
+    font-size: 30;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.nav-button{
+    margin: 10px 1px 15px 10px;
+    width: 75%;
+}
+
+.nav-brand{
+    justify-content: center;
+    display: flex;
+}
+
+.login-legend {
+    margin-top: 20px;
+}
+
+.valider {
+    margin-top: 10px;
+    color: red;
+    font-style: italic;
+}
+
+#row-login {
+    min-width: 480px;
+    min-height: 600px;
+}
+
+.div-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-title {
+    text-align: center;
+    color: #FE4F04;
+    font-style: italic;
+}
+
+#login-button, #register-button {
+    width: auto;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.modal-labels{
+    margin-top: 1px;
+}
+
+.modal-inputs {
+    margin-bottom: 15px;
+}
+
+.modal-button {
+    margin-top: 10px;
+}
+
+.option-card{
+    margin-top: 10px;
+    height: 45vh;
+}
+
+.table-card{
+    margin-top: 10px;
+    height: 91vh;
+}
+
+#cartao-status {
+    overflow-y: scroll;
+    height: 50vh;
+}
+
+.status-name-bank {
+    font-size:x-large;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.status-info {
+    font-size: large;
+    text-align: center;
+}
+
+
+.table-label{
+    display: flex;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.table-input{
+    width: 50vw;
+    display: flex;
+}
+
+.table-button{
+    width: 50vw;   
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.table-title{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    #row-login {
+        max-width: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 300px;
+        margin-left: 76px;
+    }
+}
+
